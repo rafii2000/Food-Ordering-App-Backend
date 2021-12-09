@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f7aa40ac.chunk.css",
+    "main.js": "/static/js/main.66c88d05.chunk.js",
+    "main.js.map": "/static/js/main.66c88d05.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.69cc201e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.69cc201e.js.map",
+    "static/js/2.875d59bc.chunk.js": "/static/js/2.875d59bc.chunk.js",
+    "static/js/2.875d59bc.chunk.js.map": "/static/js/2.875d59bc.chunk.js.map",
+    "static/js/3.9cb72fe0.chunk.js": "/static/js/3.9cb72fe0.chunk.js",
+    "static/js/3.9cb72fe0.chunk.js.map": "/static/js/3.9cb72fe0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.f7aa40ac.chunk.css.map": "/static/css/main.f7aa40ac.chunk.css.map",
+    "static/js/2.875d59bc.chunk.js.LICENSE.txt": "/static/js/2.875d59bc.chunk.js.LICENSE.txt",
+    "static/media/account.a4ce96df.svg": "/static/media/account.a4ce96df.svg",
+    "static/media/arrow.e657e4f8.svg": "/static/media/arrow.e657e4f8.svg",
+    "static/media/cart.30843a71.svg": "/static/media/cart.30843a71.svg",
+    "static/media/favorites.b88adf16.svg": "/static/media/favorites.b88adf16.svg",
+    "static/media/hand_glass.86542aba.svg": "/static/media/hand_glass.86542aba.svg",
+    "static/media/heart-white.4e3dba36.svg": "/static/media/heart-white.4e3dba36.svg",
+    "static/media/heart.0aa4d5cc.svg": "/static/media/heart.0aa4d5cc.svg",
+    "static/media/home.a946ed7f.svg": "/static/media/home.a946ed7f.svg",
+    "static/media/left_arrow.4a5899bd.svg": "/static/media/left_arrow.4a5899bd.svg",
+    "static/media/location.a5519d23.svg": "/static/media/location.a5519d23.svg",
+    "static/media/menu.564136be.svg": "/static/media/menu.564136be.svg",
+    "static/media/minus.bceaa333.svg": "/static/media/minus.bceaa333.svg",
+    "static/media/more.2330cfde.svg": "/static/media/more.2330cfde.svg",
+    "static/media/plus.e348d52c.svg": "/static/media/plus.e348d52c.svg",
+    "static/media/profile.d5711348.svg": "/static/media/profile.d5711348.svg",
+    "static/media/thumbs-down.2cc1389b.svg": "/static/media/thumbs-down.2cc1389b.svg",
+    "static/media/thumbs-up.d4f2be27.svg": "/static/media/thumbs-up.d4f2be27.svg",
+    "static/media/x.cf19bbdd.svg": "/static/media/x.cf19bbdd.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69cc201e.js",
+    "static/js/2.875d59bc.chunk.js",
+    "static/css/main.f7aa40ac.chunk.css",
+    "static/js/main.66c88d05.chunk.js"
+  ]
+}
