@@ -10,7 +10,8 @@ const pool = mysql.createPool({
   database: 'food_ordering_app',
   waitForConnections: true,
   connectionLimit: 10,
-  queueLimit: 0
+  queueLimit: 0,
+  timezone: '+0200',
 });
 
 

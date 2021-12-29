@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "Rafal Krol",
   "license": "ISC",
@@ -18,5 +19,6 @@
     "mysql2": "^2.3.2",
     "nodemon": "^2.0.15",
     "uuid": "^8.3.2"
-  }
+  },
+  "devDependencies": {}
 }

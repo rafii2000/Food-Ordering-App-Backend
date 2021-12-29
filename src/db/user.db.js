@@ -26,7 +26,7 @@ user.model = {
     isVerified: null
 }
 
-//user login/signin methods
+
 user.createUser = async (id, email, hash, salt, isVerified) => {
     
     //TODO: implement inserts as a transaction !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

@@ -69,8 +69,8 @@ const createUser = async (req_data) => {
 
         //extract data from request
         let email = req_data.email
-        let password = req_data.password
-      
+        let password = req_data.password1
+                      
         //prepare data for DB_Layer
         let id = uuid.v4()
         let salt = await passwordHasher.generateSalt()
@@ -87,7 +87,6 @@ const createUser = async (req_data) => {
         if(isEmailFound === false){
             const result = await userDB.createUser(id, email, hash, salt, isVerified)
             
-            //console.log('user.service.js createUser() result = ', result)
             if(result)
                 return {status: 'success', message: 'Account created successfully'}
             else

@@ -1,5 +1,5 @@
 const express = require('express')
-const {restaurantMenuController, userController} = require('../controllers') 
+const {restaurantMenuController, userController, orderController} = require('../controllers') 
 const verifyToken = require('../utils/verifyToken')
 
 const router = express.Router()
@@ -41,6 +41,12 @@ router.get('/fav-dishes/:userID', userController.retrieveUserFavDishes)
 router.put('/fav-dishes/:userID/:dishID', userController.addFavDish)
 router.delete('/fav-dishes/:userID/:dishID', userController.removeFavDish)
 
+
+//  ----- ORDERS ----- //
+router.post('/new-order', orderController.newOrder)
+router.get('/orders', orderController.getOrders)
+router.get('/orders/:orderID/status', orderController.getOrderStatus)
+router.put('/orders/:orderID/:status', orderController.updateOrderStatus)
 
 
 module.exports = router
